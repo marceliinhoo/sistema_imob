@@ -1,0 +1,780 @@
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+/* Inicio section bg */
+
+#bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/bg_img.jpg") center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+
+
+#bg button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#bg h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #0D6EFD;
+}
+
+#bg h4 {
+    color: #0D6EFD;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+#bg h4:last-child {
+    margin-bottom: 2rem;
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Fim section bg */
+
+/* Inicio section Problema */
+
+#problema {
+    display: flex;
+    background: url("../../assets/problems.png") no-repeat center;
+    background-size: cover;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#problema img {
+    box-shadow: 3px 3px 6px #000000;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff
+}
+
+.align-top {
+    margin-top: -30px;
+    /* Ajuste o valor negativo para mover a imagem para cima */
+}
+/* Fim section Problema */
+
+/* Inicio section Beneficios */
+.bg-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D6EFD;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bg-align h3 {
+    font-weight: 400;
+}
+
+#beneficios {
+    padding: 1rem;
+    width: 100%;
+}
+
+#beneficios h3 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.subcaixa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    color: #0D6EFD;
+}
+
+.rotate-animation {
+    animation: rotate 7s linear forwards;
+    /* Ajuste a duração da animação conforme necessário */
+}
+
+/* Fim section Beneficios */
+
+/* Inicio section Gestão */
+.box-bg {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-md {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.box-p {
+    margin: 0 10px;
+    color: #0D6EFD;
+    transition: 0.3s ease;
+}
+
+.box-p img {
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+}
+
+/* Estilize as caixas que aparecerão com o efeito hover */
+.hover-box {
+    position: relative;
+    /* É importante ter uma posição definida para usar o hover */
+    display: inline-block;
+}
+
+.hover-box2 {
+    position: relative;
+    /* É importante ter uma posição definida para usar o hover */
+    display: inline-block;
+}
+
+.hover-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(13, 110, 253, 0.8);
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    /* A altura é inicialmente zero para a caixa aparecer com efeito hover */
+    opacity: 0;
+    /* A caixa estará inicialmente invisível para criar o efeito de transição */
+    transition: height 0.4s ease, opacity 0.3s ease;
+    /* Adiciona um efeito de transição suave */
+}
+
+.hover-text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(13, 110, 253, 0.8);
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    /* A altura é inicialmente zero para a caixa aparecer com efeito hover */
+    opacity: 0;
+    /* A caixa estará inicialmente invisível para criar o efeito de transição */
+    transition: height 0.8s ease, opacity 0.3s ease;
+    /* Adiciona um efeito de transição suave */
+}
+
+
+.hover-text-bg4 {
+    background-color: rgba(46, 139, 3, 0.8);
+}
+
+.hover-text-bg5 {
+    background-color: rgba(55, 0, 255, 0.8);
+}
+
+.hover-text-bg6 {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.hover-box:hover .hover-text {
+    height: 98%;
+    /* Aumenta a altura para mostrar o texto quando passa o mouse */
+    opacity: 1;
+    /* Torna o texto visível */
+}
+
+.hover-box2:hover .hover-text2 {
+    height: 98%;
+    /* Aumenta a altura para mostrar o texto quando passa o mouse */
+    opacity: 1;
+    /* Torna o texto visível */
+}
+
+.box-p:hover {
+    transform: scale(1.1);
+}
+
+.faixa {
+    width: 100vw;
+    height: 5px;
+    background-color: #0D6EFD;
+    margin: 1rem 0;
+}
+
+#adm-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+
+}
+
+.box-G {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.box-1 {
+    background: url("../../assets/controle.jpg") no-repeat center;
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+
+.box-2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-2-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5px;
+}
+
+.box-2-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5px;
+}
+
+.cx {
+    background: url("../../assets/contrato2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.cx-2 {
+    background: url("../../assets/comissao2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.cx-3 {
+    background: url("../../assets/cobranca2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.cx-4 {
+    background: url("../../assets/venda2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.cx-5 {
+    background: url("../../assets/inquilino2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.cx-6 {
+    background: url("../../assets/proprietario2.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #0D6EFD;
+    border: #0D6EFD solid 1px;
+    transition: 0.3s ease;
+}
+
+.box-1:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.cx:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cx-2:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cx-3:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cx-4:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cx-5:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.cx-6:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* Fim section Gestão */
+/* inicio sessão contato */
+
+#contato {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+   /*  margin-bottom: 2rem; */
+    background-color: #0D6EFD;
+    color: #ffffff;
+}
+
+#contato img {
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px #000000;
+}
+
+#contato h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.color {
+    color: #ffffff;
+}
+
+._btn {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_whats {
+    color: #ffffff;
+    background-color: #157347;
+    border: 0;
+    padding: 1rem;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    box-shadow: 3px 3px 6px #000000;
+}
+
+.btn_whats a {
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn_whats:hover {
+    transform: scale(1.1);
+}
+
+/* fim sessão contato */
+/* inicio sessão formulario */
+.integracao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    transition: 0.5s ease;
+    width: 150px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #0000005b;
+    transform: scale(1.1);
+}
+
+.form_contato p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #0D6EFD;
+    color: #fff;
+}
+
+/* fim sessão formulario */
+
+/* Inicio sessão financeiro */
+
+#financeiro{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0D6EFD;
+}
+
+.txt{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#financeiro h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+/* fim sessão financeiro */
+
+
+@media (max-width:1200px) {
+    #bg {
+        flex-direction: column;
+    }
+
+    #bg h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    #bg h4 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    #bg img {
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+    #bg {
+        flex-direction: column;
+    }
+
+    #bg h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    #bg h4 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    #bg img {
+        width: 100%;
+    }
+
+    .hover-text {
+        overflow: hidden;
+        font-size:12px;
+     }
+ 
+     .hover-text2 {
+         overflow: hidden;
+         font-size: 14px;
+      }
+
+
+}
+
+@media (max-width:768px) {
+    #bg {
+        flex-direction: column;
+    }
+
+    #bg h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    #bg h4 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    #bg img {
+        width: 100%;
+    }
+
+   
+    .box-1 {
+        width: 50%;
+    }
+
+    .box-2 {
+        flex-direction: row;
+
+    }
+
+    .box-2-1 {
+        flex-direction: column;
+        width: 50%;
+        margin: 2px;
+
+    }
+
+    .box-2-2 {
+        flex-direction: column;
+        width: 50%;
+        margin: 2px;
+    }
+    .hover-text {
+        overflow: hidden;
+        font-size:8px;
+     }
+ 
+     .hover-text2 {
+         overflow: hidden;
+         font-size: 14px;
+      }
+
+
+
+}
+
+@media (max-width:480px) {
+    #bg {
+        flex-direction: column;
+    }
+
+    #bg h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    #bg h4 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    #bg img {
+        width: 100%;
+    }
+
+  
+    .box-1 {
+        width: 100%;
+        background-size: cover;
+        background: url("../../assets/controle2.jpg")center;
+    }
+
+    .box-2 {
+        flex-direction: column;
+
+    }
+
+    .box-2-1 {
+        flex-direction: column;
+        width: 80%;
+        margin: 2px;
+
+    }
+
+    .box-2-2 {
+        flex-direction: column;
+        width: 80%;
+        margin: 2px;
+    }
+
+    .hover-text {
+       overflow: hidden;
+       font-size: 6px;
+    }
+
+    .hover-text2 {
+        overflow: hidden;
+        font-size: 12px;
+       
+     }
+
+
+}
+
+@media (max-width: 320px) {
+    #bg {
+        flex-direction: column;
+    }
+
+    #bg h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    #bg h4 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    #bg img {
+        width: 100%;
+    }
+
+    .box-G {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .box-1 {
+        width: 100%;
+        height: 900px;
+        margin-bottom: 2rem;
+        background-size: contain;
+
+    }
+
+    .box-2 {
+        flex-direction: column;
+        width: 100%;
+
+
+
+    }
+
+    .box-2-1 {
+        flex-direction: row;
+        width: 100%;
+
+
+    }
+
+    .box-2-2 {
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .cx {
+        height: 150px;
+    }
+
+    .cx-4 {
+        height: 150px;
+    }
+    .hover-text {
+        overflow: hidden;
+        font-size: 5px;
+     }
+ 
+     .hover-text2 {
+         overflow: hidden;
+         font-size: 10px;
+         flex-direction: column;
+      }
+
+}

@@ -1,0 +1,33 @@
+#contato2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 70px;
+}
+    
+
+.titulo_contato{
+    color: #0D6EFD;
+    padding: 1rem;
+}
+
+.box_txt{
+    padding: 0.5rem;
+    color: #0D6EFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.box_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box_txt i{
+   margin: 1rem;
+}
+

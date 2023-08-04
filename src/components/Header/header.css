@@ -1,0 +1,53 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+#nav1{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.verde{
+  background-color: rgb(5, 236, 5);
+  font-weight: 500;
+  border: 0;
+  border-radius: 15px;
+  padding: 0.2rem;
+}
+
+.bold a{
+  font-weight: bold;
+}
+
+
+ [data-bs-theme="blue"] {
+  --bs-body-color: var(--bs-white);
+  --bs-body-color-rgb: #{to-rgb($white)};
+  --bs-body-bg: var(--bs-blue);
+  --bs-body-bg-rgb: #{to-rgb($blue)};
+  --bs-tertiary-bg: #{$blue-600};
+
+  .dropdown-menu {
+    --bs-dropdown-bg: #{mix($blue-500, $blue-600)};
+    --bs-dropdown-link-active-bg: #{$blue-700};
+  }
+
+  .btn-secondary {
+    --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, .5), 5%)};
+    --bs-btn-hover-border-color: #{rgba($white, .25)};
+    --bs-btn-border-color: #{rgba($white, .25)};
+   
+    --bs-btn-hover-border-color: #{rgba($white, .25)};
+    --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, .5), 10%)};
+    --bs-btn-active-border-color: #{rgba($white, .5)};
+    --bs-btn-focus-border-color: #{rgba($white, .5)};
+    --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
+  }
+} 
+

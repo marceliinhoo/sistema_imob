@@ -1,0 +1,56 @@
+/* .form_contato {
+    padding: 2rem;
+    
+} */
+
+.form1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.form1 input{
+    height: 40px;
+    width: 95%;
+    border: 0.5px solid #0D6EFD;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+
+
+.form2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+   
+    
+}
+
+.form2 textarea{
+    width:100%;
+    border: 0.5px solid #0D6EFD;
+    border-radius: 10px;
+    margin: 5px;
+    
+
+}
+
+.divi button{
+    padding: 5px;
+    border: 0;
+    background-color: #0D6EFD;
+    color:azure;
+    width: 200px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.divi{
+    display: flex;
+    justify-content: flex-end;
+}

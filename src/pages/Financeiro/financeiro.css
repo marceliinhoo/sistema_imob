@@ -1,0 +1,87 @@
+.aling-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.aling-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.aling-img img{
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px #000;
+}
+.aling-txt span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.aling-txt img{
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px #000;
+}
+
+.aling-txt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+#financeiro{
+    margin-bottom: 0;
+    margin-top: 70px;
+    padding-top: 1rem;
+}
+
+
+
+
+.aling-txt2 span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.aling-txt2 img{
+    border-radius: 15px;
+    
+}
+
+.box-container{
+    margin-top: 1rem;
+}
+.img1 :nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+#celulares{
+    background-color: #171B5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2.5rem!important;
+    padding: 0.5rem;
+    color: azure;
+}
+
+.hover-img{
+    transition: 0.4s ease !important;
+}
+.hover-img :hover{
+    transform: scale(1.1);
+}
+
+#finan{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
