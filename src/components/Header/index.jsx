@@ -16,7 +16,7 @@ const Header = () => {
       <div className="bg-primary" id="nav1" >
         <nav class=" container navbar navbar-expand-lg bg-primary " data-bs-theme="dark">
           <div class="container-fluid">
-            <Link to='/'> <img src={logo} width="250" alt="" /></Link>
+            <Link to='/'> <img src={logo} width="200pxx" alt="" /></Link>
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
