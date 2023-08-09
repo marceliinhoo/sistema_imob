@@ -23,17 +23,20 @@ const Header = () => {
             </button>
             <div class="collapse navbar-collapse " id="navbarNav" data-bs-theme="blue" >
               <ul class="navbar-nav ms-auto ">
-                <li class="nav-item dropdown "  >
-                  <Link to='/gestao' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> GESTÃO</Link>
+              <li class="nav-item dropdown tst1 "  >
+                  <Link to='/' className="nav-link  active fs-5 tst1" href="#" role="button" data-bs-toggle="" aria-expanded="false"> Home</Link>
+                </li>
+                <li class="nav-item dropdown tst1 "  >
+                  <Link to='/gestao' className="nav-link  active fs-5 tst1" href="#" role="button" data-bs-toggle="" aria-expanded="false"> Gestão</Link>
                 </li>
                 <li class="nav-item dropdown"  >
-                  <Link to='/integracao' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> INTEGRAÇÃO</Link>
+                  <Link to='/integracao' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> Integração</Link>
                 </li>
                 <li class="nav-item dropdown"  >
-                  <Link to='/financeiro' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> FINANCEIRO</Link>
+                  <Link to='/financeiro' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> Financeiro</Link>
                 </li>
                 <li class="nav-item dropdown"  >
-                 <Link to='/contato' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> CONTATO</Link>
+                 <Link to='/contato' class="nav-link  active fs-5" href="#" role="button" data-bs-toggle="" aria-expanded="false"> Contato</Link>
                 </li>
               </ul>
               <ul class="navbar-nav ms-4 ">

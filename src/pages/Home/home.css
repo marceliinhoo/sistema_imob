@@ -16,7 +16,11 @@ h3{
     margin-top: 70px;
 }
 
-
+.bold a{
+    font-weight: bold;
+    font-size: 14px;
+    
+  }
 
 #bg button a{
     text-decoration: none;

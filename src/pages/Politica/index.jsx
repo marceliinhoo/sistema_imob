@@ -2,16 +2,16 @@
 import React from 'react';
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
-import { useNavigate } from 'react-router-dom'
+/* import { useNavigate } from 'react-router-dom' */
 import "./politica.css"
 
 
 const Politica = () => {
-    const navigate = useNavigate()
+    /* const navigate = useNavigate() */
 
 
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
+   /*  const currentDate = new Date(); */
+   /*  const currentYear = currentDate.getFullYear(); */
 
     return (
 

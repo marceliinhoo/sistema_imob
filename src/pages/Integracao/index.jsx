@@ -106,7 +106,7 @@ const Integracao = () => {
                     <div className="container">
                         <div className="chamada">
                             <h5>Sistema integrado a portais de anúncio</h5>
-                            <p> Além disso, visando aumentar a visibilidade e alcance dos seus imóveis, oferecemos a oportunidade de listar seu portal em sites de anúncios líderes do setor, como OLX, ZAP Imóveis e Viva Real. Isso abrirá novos horizontes para o seu negócio e atrairá um público mais amplo em busca de propriedades</p>
+                            <p> Além disso, visando aumentar a visibilidade e alcance dos seus imóveis, oferecemos a oportunidade de listar seu portal em sites de anúncios líderes do setor, como OLX, ZAP Imóveis e Viva Real. Isso abrirá novos horizontes para o seu negócio e atrairá um público mais amplo em busca de propriedades.</p>
 
                         </div>
 
@@ -144,9 +144,9 @@ const Integracao = () => {
                             <img src={atendente} className="img-fluid " alt="" />
                         </div>
                         <div className="col-md-7 alinhamento">
-                            <h5>
+                            <p>
                                 "Descubra nosso incrível produto! Entre em contato agora mesmo e solicite um orçamento sem compromisso. Estamos ansiosos para atendê-lo e oferecer soluções personalizadas para suas necessidades. Não perca essa oportunidade, fale conosco hoje mesmo!"
-                            </h5>
+                            </p>
                             <br>
                             </br>
                             <div className="_btn">

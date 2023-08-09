@@ -122,9 +122,9 @@ const Financeiro = () => {
                             <img src={atendente} className="img-fluid " alt="" />
                         </div>
                         <div className="col-md-7 alinhamento">
-                            <h5>
+                            <p>
                                 "Descubra nosso incrível produto! Entre em contato agora mesmo e solicite um orçamento sem compromisso. Estamos ansiosos para atendê-lo e oferecer soluções personalizadas para suas necessidades. Não perca essa oportunidade, fale conosco hoje mesmo!"
-                            </h5>
+                            </p>
                             <br>
                             </br>
                             <div className="_btn">
