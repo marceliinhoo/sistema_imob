@@ -234,7 +234,7 @@ const Home = () => {
                                         <i class="fa-brands fa-whatsapp fa-beat fa-2xl" ></i>
                                     </big>
                                     <button className="m-3 btn_whats">
-                                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=551191927633">Faça seu orçamento</a>
+                                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511919267633">Faça seu orçamento</a>
                                     </button>
                                 </big>
                             </div>

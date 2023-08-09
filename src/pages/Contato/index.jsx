@@ -19,7 +19,7 @@ const Gestão = () => {
                             <center><h4>Estamos sempre disponíveis para atendê-los!</h4></center><br />
                             <p>Valorizamos muito o seu contato e queremos proporcionar a melhor experiência possível. Seja para esclarecer dúvidas, receber informações, ou compartilhar suas sugestões e feedback.</p>
                             <i class="fa-solid fa-phone fa-2xl"></i>
-                            <p>(11) 9192-7633</p>
+                            <p>(11) 91926-7633</p>
                             <i class="fa-solid fa-envelope fa-2xl"></i>
                             <p>contato@geconweb.com.br</p>
                         </div>
