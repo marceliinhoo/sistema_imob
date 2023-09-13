@@ -5,36 +5,41 @@ import whatsapp from "../../assets/whatsapp.png"
 import instagram from "../../assets/instagram.png"
 import logofooter from "../../assets/logo.png"
 import { Link } from "react-router-dom"
+import ChatbotFooter from '../ChatbotFooter/ChatbotFooter';
+
 
 const Footer = () => {
 
 
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
+    const myStyle = {
+        height: '100%',
+        minHeight: '300px'
+    };
+
 
     return (
         <>
             <footer>
                 <div className="col-md-3">
-                <img src={logofooter}   width={"70%"}alt="" />
+                    <img src={logofooter} width={"70%"} alt="" />
 
                 </div>
                 <div className="col-md-6 ">
                     <br />
                     <p >©Copyright {currentYear} Grupo TC do Brasil.
-                Política de Privacidade e Termos de Uso <Link to="/politica">Clique aqui</Link></p>
-                
+                        Política de Privacidade e Termos de Uso <Link to="/politica">Clique aqui</Link></p>
+
                 </div>
                 <div className="col-md-3 redessociais">
                     <a href="http://"><img src={whatsapp} width={"50%"} alt="" /></a>
-                    <a href="http://"><img src={instagram}  width={"50%"} alt="" /></a>
-                    <a href="http://"><img src={facebook}   width={"50%"}alt="" /></a>
-                
-                
-                
-                
-
+                    <a href="http://"><img src={instagram} width={"50%"} alt="" /></a>
+                    <a href="http://"><img src={facebook} width={"50%"} alt="" /></a>
                 </div>
+
+                <ChatbotFooter />
+
             </footer>
 
         </>
